@@ -1,4 +1,4 @@
-# Captura de datos
+# Captura de dos números enteros
 num1 = int(input("Ingresa el primer número entero: "))
 num2 = int(input("Ingresa el segundo número entero: "))
 
@@ -11,12 +11,12 @@ division_entera = num1 // num2
 modulo = num1 % num2
 potencia = num1 ** num2
 
-# Mostrar resultados
-print("\n--- Resultados ---")
-print("Suma:", suma)
-print("Resta:", resta)
-print("Multiplicación:", multiplicacion)
-print("División:", division)
-print("División entera:", division_entera)
-print("Módulo (residuo):", modulo)
-print("Potencia:", potencia)
+# Resultados en pantalla
+print("\nResultados:")
+print("La suma es:", suma)
+print("La resta es:", resta)
+print("La multiplicación es:", multiplicacion)
+print("La división es:", division)
+print("La división entera es:", division_entera)
+print("El residuo es:", modulo)
+print("La potencia es:", potencia)
